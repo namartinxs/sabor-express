@@ -1,6 +1,8 @@
-numero = int(input('Insira um número'));
+idade = int(input('Insira sua idade'))
 
-if numero % 2 == 0:
-    print(f'O número {numero} é par.')
-else:
-     print(f'O número {numero} é impar.')
+if idade <=12:
+    print('Pertence a categoria: criança.')
+elif idade == 13 or idade<=18:
+    print('Pertence a categoria: adolescente.')
+else: 
+    print('Pertence a categoria: adulto')
